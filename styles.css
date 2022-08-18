@@ -3,7 +3,9 @@ header, footer {
    
 }
 .global {
-    font: 18px #e5e7eb;
+    
+   padding: 5px;
+   margin: 5px;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -14,7 +16,7 @@ header, footer {
     align-content: space-between;
 
 }
-.hero {
+.callToAction1{
     color: #F9FAF8;
     background-color: #1F2937;
     display: flex;
@@ -76,16 +78,13 @@ td {
 
 .quote {
     background-color: #E5E7EB;
-    height: 400px;
+    height: 200px;
     font: 36px lighter italic #1F2037;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#scripture {
 
-    
-}
 .middle {
     display: flex;
     justify-content: center;
@@ -109,25 +108,30 @@ td {
     border-radius: 15%;
     flex: 1 1 auto;
 }
+.middel4 {
+    border: 5px solid #3882F6;
+    border-radius: 15%;
+    flex: 1 1 auto;
+}
 
 .heroImg {
+    padding: 30px;
+    margin-left: 50px;
+
     flex: 2 1 auto;
 }
 .callToAction {
+    color: #F9FAF8;
     background-color: #3882F6;
-    border-radius: 15%;
-    height: 100px;
-    width: 700px;
-    padding: 50px;
-    margin: 25px;
+    margin: 5% 20% 5% 20%;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
     align-items: center;
-display: flex;
-align-self: center;
+    gap: 10px;  
+}
 
-}
-.call {
-    a
-}
 .header {
     font: 18px bolder #E5E7EB;
     display: flex;
@@ -135,8 +139,5 @@ align-self: center;
 nav>ul {
     list-style-type: none;
     display: flex;
-    text-align: right;
-    
-
+    gap:4;
 }
-
