@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 header, footer {
     background-color: #1F2937;
    
@@ -19,6 +21,7 @@ header, footer {
 .callToAction1{
     color: #F9FAF8;
     background-color: #1F2937;
+    padding: 25px 25px 25px 50px;
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -33,17 +36,15 @@ button {
     border: none;
     border-radius: 5%;
     color: white;
-    padding: 15px 32px;
+    padding: 5px 20px;
     text-align: center;
     text-decoration: none;
     font-size: 18px;
 }
 #dButton {
-    border: 3px solid white ;
+    border: 2px solid white ;
     background-color: #3882F6;
-    border: none;
     border-radius: 5%;
-    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     font-size: 18px;
@@ -58,14 +59,11 @@ header {
     display: inline;
 }
 table {
-    
-   
    display: flex;
    align-items: center;
    justify-content: center;
    gap: 8px;
-   align-items: center
-   ;
+   align-items: center;
   
 }
 
@@ -91,19 +89,16 @@ td {
     
 }
 .middle1{
-    
     border: 5px solid #3882F6;
     border-radius: 15%;
     flex: 1 1 auto;
 }
 .middle2 {
-    
     border: 5px solid #3882F6;
     border-radius: 15%;
     flex: 1 1 auto;
 }
 .middle3 {
-    
     border: 5px solid #3882F6;
     border-radius: 15%;
     flex: 1 1 auto;
@@ -117,7 +112,6 @@ td {
 .heroImg {
     padding: 30px;
     margin-left: 50px;
-
     flex: 2 1 auto;
 }
 .callToAction {
@@ -133,11 +127,16 @@ td {
 }
 
 .header {
-    font: 18px bolder #E5E7EB;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
 }
 nav>ul {
     list-style-type: none;
     display: flex;
     gap:4;
+}
+.navLink {
+    font: 18px #E5E7EB;
 }
