@@ -5,9 +5,8 @@ header, footer {
    
 }
 .global {
-    
-   padding: 5px;
-   margin: 5px;
+    padding: 5px;
+    margin: 5px;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -21,9 +20,10 @@ header, footer {
 .callToAction1{
     color: #F9FAF8;
     background-color: #1F2937;
-    padding: 25px 25px 25px 50px;
+    padding: 25px 25px 25px 25px;
     display: flex;
     justify-content: center;
+    align-content: space-between;
     gap: 10px;
 }
 h1 {
@@ -52,7 +52,6 @@ button {
 header {
     font:36px bolder #1F2037 ;
     display: flex;
-    align-items: right;
     gap: 20x;
 }
 .parMiddle {
@@ -110,9 +109,12 @@ td {
 }
 
 .heroImg {
-    padding: 30px;
-    margin-left: 50px;
-    flex: 2 1 auto;
+    flex: 1 1 auto;
+}
+.hero1 {
+    margin-left: 10%;
+    flex: 1 1 auto;
+   
 }
 .callToAction {
     color: #F9FAF8;
@@ -138,5 +140,16 @@ nav>ul {
     gap:4;
 }
 .navLink {
-    font: 18px #E5E7EB;
+   
+}
+li {
+font-size:18px ;
+    color: #E5E7EB;
+    align-items: flex-end;
+   
+}
+.logo{
+    color:  #F9FAF8;
+    font-size: 24px;
+    align-content: flex-start;
 }
